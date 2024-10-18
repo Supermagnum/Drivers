@@ -3909,15 +3909,55 @@
 		)
 		(uuid f7ea0f64-9cf6-4e5d-81c6-12e45252be9e)
 	)
+	(text "D1/TX"
+		(exclude_from_sim no)
+		(at 207.772 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c2b88c9-c0d5-479d-a1ec-72c96d31d1f8")
+	)
 	(text "I2C and other pins"
 		(exclude_from_sim no)
-		(at 207.772 50.546 90)
+		(at 211.074 50.546 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "0e2d4076-b8de-443f-8df1-fbb863244c6e")
+	)
+	(text "D7"
+		(exclude_from_sim no)
+		(at 205.74 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0efd4744-ef70-41c7-816a-a7d4dad34ac1")
+	)
+	(text "D15"
+		(exclude_from_sim no)
+		(at 228.346 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1685b0f3-e450-47f0-a7d9-79418a9a97ae")
+	)
+	(text "D3"
+		(exclude_from_sim no)
+		(at 206.248 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16be2ed6-edb2-4936-ac03-7d664b7ab0fc")
 	)
 	(text "VREF,5V AND GND"
 		(exclude_from_sim no)
@@ -3929,15 +3969,65 @@
 		)
 		(uuid "1ddfaa29-b533-4c56-b76e-c683395baf62")
 	)
+	(text "D19"
+		(exclude_from_sim no)
+		(at 228.6 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2359285c-2bf1-402d-ac53-de654688d2f1")
+	)
+	(text "D14"
+		(exclude_from_sim no)
+		(at 228.346 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "387a1b4e-a3d4-434d-a63a-fe9e888ced38")
+	)
+	(text "D12"
+		(exclude_from_sim no)
+		(at 207.264 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c905b2e-8993-46b0-9da0-b3250a4a5dee")
+	)
+	(text "D5"
+		(exclude_from_sim no)
+		(at 205.74 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e66c5ab-6afb-43e2-8d24-33c7b375c1e4")
+	)
 	(text "GPIO "
 		(exclude_from_sim no)
-		(at 208.026 82.804 90)
+		(at 211.582 82.804 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "3fb961c7-32a1-437d-994a-57118b0fb852")
+	)
+	(text "D18"
+		(exclude_from_sim no)
+		(at 228.6 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a1866ca-596e-4d15-bee6-7cac6aff60df")
 	)
 	(text "BOLT HOLES, M4"
 		(exclude_from_sim no)
@@ -3949,7 +4039,27 @@
 		)
 		(uuid "7392c0c0-5934-4940-b7b4-c96e25af9c5a")
 	)
-	(text "   SWITCHES,\nACTIVE ON GROUND"
+	(text "D16"
+		(exclude_from_sim no)
+		(at 228.346 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7afbf8b1-a19e-4e21-87a0-2ead85b35431")
+	)
+	(text "D9"
+		(exclude_from_sim no)
+		(at 206.248 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bcb01a5-0b77-4abb-8192-bff131456566")
+	)
+	(text "   SWITCHES,\nACTIVE IF GROUNDED"
 		(exclude_from_sim no)
 		(at 164.338 85.598 90)
 		(effects
@@ -3969,15 +4079,35 @@
 		)
 		(uuid "815c7c1b-6c8a-4141-bc97-bd6ae1efef90")
 	)
-	(text "ANALOG"
+	(text "D10"
 		(exclude_from_sim no)
-		(at 228.6 138.176 90)
+		(at 206.756 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96fad731-c686-4352-9516-cec14a80c49f")
+	)
+	(text "ANALOG INPUTS\nARDUINO"
+		(exclude_from_sim no)
+		(at 233.426 138.176 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a6485ac2-2835-4579-9729-dde2aa529fe1")
+	)
+	(text "SLC"
+		(exclude_from_sim no)
+		(at 207.01 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7487327-0958-4708-bbf6-d2dd3e261b0e")
 	)
 	(text "CONNECTIONS TO ARDUINO UNO"
 		(exclude_from_sim no)
@@ -3989,6 +4119,76 @@
 		)
 		(uuid "ada401ae-da8a-4a14-9a16-00c27f6b6438")
 	)
+	(text "D0/RX"
+		(exclude_from_sim no)
+		(at 208.026 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4c69959-7187-4fbc-b9ea-28cf82e0e67e")
+	)
+	(text "D13"
+		(exclude_from_sim no)
+		(at 207.01 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8ccbd5c-3226-4dd7-be63-ae476b139b8e")
+	)
+	(text "D6"
+		(exclude_from_sim no)
+		(at 205.994 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c911513c-8958-46e1-870e-86131b499dda")
+	)
+	(text "D17"
+		(exclude_from_sim no)
+		(at 228.346 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6ed2ab7-334e-4abb-886a-f4ed0b4343d9")
+	)
+	(text "D4"
+		(exclude_from_sim no)
+		(at 205.994 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcede754-a136-40ca-babf-d365c71a22bb")
+	)
+	(text "D11"
+		(exclude_from_sim no)
+		(at 207.01 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd407cf2-3b40-4ccc-a44a-0f3b3fadb2d9")
+	)
+	(text "SLA"
+		(exclude_from_sim no)
+		(at 207.01 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e094ce25-b2cc-4839-90ce-259327c41cee")
+	)
 	(text "Brushed DC Motor Drivers and related."
 		(exclude_from_sim no)
 		(at 66.294 52.07 0)
@@ -3998,6 +4198,46 @@
 			)
 		)
 		(uuid "e4f8b396-7858-48c7-a1e6-4022175bbe55")
+	)
+	(text "D8"
+		(exclude_from_sim no)
+		(at 206.248 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7ed0210-3a3c-48d2-857b-50665530252e")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 207.01 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eeadbb6b-cd51-4567-b93c-fe757147461b")
+	)
+	(text "D2"
+		(exclude_from_sim no)
+		(at 206.248 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7991452-b069-483c-92b5-eb090a1bcb43")
+	)
+	(text "AREF"
+		(exclude_from_sim no)
+		(at 207.518 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f93b843e-f608-4ce0-93f0-40662d07fd24")
 	)
 	(label "UP"
 		(at 177.8 82.55 0)
