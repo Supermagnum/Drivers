@@ -4239,6 +4239,10 @@
 		(uuid "1ac4ab28-1d6c-4939-88ab-7165847cc067")
 	)
 	(no_connect
+		(at 217.17 24.13)
+		(uuid "1db432fa-0a1c-4208-80eb-29952d43de27")
+	)
+	(no_connect
 		(at 177.8 109.22)
 		(uuid "1fa0c5af-6b5b-4cf6-adc1-f4b90610876e")
 	)
@@ -4395,6 +4399,10 @@
 		(uuid "98d17c4d-1dbe-4006-82f2-483015c75cc4")
 	)
 	(no_connect
+		(at 177.8 81.28)
+		(uuid "9c39ac09-911b-472d-a095-e88557532baa")
+	)
+	(no_connect
 		(at 243.84 76.2)
 		(uuid "9d6dff6e-dfef-4729-be7e-34a471fbf5b2")
 	)
@@ -4417,6 +4425,10 @@
 	(no_connect
 		(at 177.8 45.72)
 		(uuid "b7bb3ce0-11e6-4203-8936-9703fec6972f")
+	)
+	(no_connect
+		(at 177.8 78.74)
+		(uuid "b94091f7-47c2-4ec1-9889-d49fe708b179")
 	)
 	(no_connect
 		(at 177.8 50.8)
@@ -4817,16 +4829,6 @@
 			(type default)
 		)
 		(uuid "6608d48b-feaa-43a6-adb9-16bb07902a33")
-	)
-	(wire
-		(pts
-			(xy 217.17 24.13) (xy 223.52 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dfaf9f1-550d-45aa-b0a5-8deb862ebd2c")
 	)
 	(wire
 		(pts
@@ -6314,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -6523,7 +6525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 38.862 88.9 90)
 			(effects
 				(font
@@ -6590,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 165.1 72.898 90)
 			(effects
 				(font
@@ -6627,71 +6629,6 @@
 			(project ""
 				(path "/43396cf7-6229-4c16-b35b-9e1dd4c3617f"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48512b95-5019-4802-9f9d-c0502d018622")
-		(property "Reference" "#PWR015"
-			(at 223.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c418e173-0c49-4148-b340-fbb2fe8f7a19")
-		)
-		(instances
-			(project "K3NG-rotator-shield"
-				(path "/43396cf7-6229-4c16-b35b-9e1dd4c3617f"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6858,7 +6795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 165.1 69.088 90)
 			(effects
 				(font
@@ -8520,7 +8457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 40.132 132.08 90)
 			(effects
 				(font
