@@ -5324,7 +5324,7 @@
 		)
 		(uuid "813530f4-9910-40e9-88a0-73637142185a")
 	)
-	(text "A PCB with dual DRV8251A and connections to Arduino Uno"
+	(text "A PCB with dual DRV8251A and connections to Arduino Mega 2560"
 		(exclude_from_sim no)
 		(at 209.296 169.418 0)
 		(effects
