@@ -5328,7 +5328,7 @@
 	)
 	(text "A PCB with dual DRV8251A and connections to Arduino Mega 2560"
 		(exclude_from_sim no)
-		(at 209.296 169.418 0)
+		(at 211.836 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6190,6 +6190,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr" "1725708"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "1725708"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "ab1500a1-f1f6-4f3d-8d79-20707d812896")
 		)
@@ -6267,6 +6285,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "  RNU1H470MDN1PH"
 			(at 82.55 34.29 0)
 			(effects
 				(font
@@ -6476,6 +6503,15 @@
 				(hide yes)
 			)
 		)
+		(property "mfr" "  1725672"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "444f7a60-22da-4d6c-ab9d-1797f7da55b6")
 		)
@@ -6552,6 +6588,15 @@
 				(hide yes)
 			)
 		)
+		(property "mfr" "  MFR-25FBF52-1K3"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e0ec58e-e5b9-457f-a8da-54e2d8075843")
 		)
@@ -6612,6 +6657,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "  YR1B1K0CC"
+			(at 165.1 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,6 +6735,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "K104K10X7RF5UH5"
 			(at 143.51 77.47 0)
 			(effects
 				(font
@@ -6815,6 +6878,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "  YR1B1K0CC"
+			(at 165.1 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,6 +7217,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "K104K10X7RF5UH5"
 			(at 156.21 77.47 0)
 			(effects
 				(font
@@ -7501,6 +7582,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 46.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "  1725672"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -8180,6 +8270,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr" "  1725698"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "  1725698"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "2185f80e-29f3-4ca1-9710-2631a074bf6e")
 		)
@@ -8484,6 +8592,15 @@
 				(hide yes)
 			)
 		)
+		(property "mfr" "  MFR-25FBF52-1K3"
+			(at 41.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38765cae-1eea-4d00-8af4-3a192d87a486")
 		)
@@ -8546,6 +8663,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "K104K10X7RF5UH5"
 			(at 69.85 34.29 0)
 			(effects
 				(font
